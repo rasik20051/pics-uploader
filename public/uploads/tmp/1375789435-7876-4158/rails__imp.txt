@@ -1,0 +1,16 @@
+Rails-Guides
+Railscasts
+RubyToolbox
+Net.Tutsplus
+reddit.com/r/rails
+stack-overflow
+
+Gemfiles
+
+Authentication :- Devise,Sorcery
+FileUploads    :- CarrierWave
+PDFGeneration  :- PDFKit,Prawn
+Deployment     :- Capistrano,Heroku
+FullTextSearch :- Sunspot,Thinking Sphinx
+SOAPservices   :- Savon
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PictureUploader</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <link rel="stylesheet" href="http://railsgirls.com/assets/bootstrap.css">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div class="navbar navbar-fixed-top">
+	<div class=" navbar-inner">
+		<div class="container">
+<a class="brand" href="/">The Picture Uploader App</a>
+	<ul class="nav">
+<li class="active"><a href="/ideas">THE PICTURE APP</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="container">
+<%= yield %>
+</div>
+
+
+
+<footer>
+  <div class="container">
+    Rails 4.0
+  </div>
+</footer>
+
+</body>
+</html>
