@@ -3,4 +3,5 @@ class Idea < ActiveRecord::Base
 	validates :name,:description,:picture, presence: true
 	VALID_PICTURE_FORMAT= /\.(?:jpg|gif|png)/i
 	validates :picture, format: {with: VALID_PICTURE_FORMAT}
+	has_many :comments
 end

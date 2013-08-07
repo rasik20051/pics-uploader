@@ -4,16 +4,17 @@ source 'https://rubygems.org'
  
 gem 'rails', '4.0.0.rc2'
 gem  'devise'
+gem 'foreigner'
 
 # Use sqlite3 as the database for Active Record
-group :development do
+#group :development do
   gem 'sqlite3'
-end
+#end
 
-group :production do
+#group :production do
   gem 'pg'
   gem 'rails_12factor'
-end
+#end
 
 gem 'carrierwave'
 

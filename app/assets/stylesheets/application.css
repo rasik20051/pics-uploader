@@ -23,3 +23,6 @@ table, td, th {
 th { 
 	border-bottom: 1px solid #DDD !important; 
 }
+li{
+	padding: 0px 10px 0 10px;
+}
